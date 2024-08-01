@@ -75,5 +75,11 @@ sudo nala install python3.12-venv
 #For Neovim
 sudo nala install ripgrep
 
-# TODO : Add brew and neovim from Brew
+# TODO : Add brew to PATH and add NODE
 #
+# Installing Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Installing Neovim
+
+brew install neovim
